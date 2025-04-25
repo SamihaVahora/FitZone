@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">FitZone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Timetable</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Trainers</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Trainers</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Trainers</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Testimonials</a> 
+                    </li>
+                    <a href="" class="btn btn-primary btn-lg">join now</a> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Full Background Image -->
+<section class="hero text-white text-center" style="
+background-image: url('https://images.unsplash.com/photo-1641236475922-4537ef0b974e?auto=format&fit=crop&w=1470&q=80');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-color: #2c3e50;
+height: 70vh; /* Full screen height */
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+">
+<!-- Optional dark overlay for better text visibility -->
+<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.5); z-index: 1;"></div>
+
+<!-- Content -->
+<div class="container" style="position: relative; z-index: 2;">
+    <h1 class="display-3 mb-3">Welcome to FitZone</h1>
+    <p class="lead mb-4">your journey to fitness starts here.</p>
+    <a href="" class="btn btn-success btn-lg">Get Started</a>
+</div>
+</section>
+
+
+    <!--our services-->
+    <section class="container mt-5">
+        <h3 class="text-center">Our Services</h3>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h5 class="mt-3">Personal Training</h5>
+                <p>
+                    Get one-on-one Guidance with Certified trainers.
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h5 class="mt-3">Group Classes</h5>
+                <p>
+                    Join energizing group workouts like Zumba and Yoga.
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h5 class="mt-3">Nutrition Coaching</h5>
+                <p>
+                    Personalized meal plans to support your goals
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--Weekly Timetable-->
+    <section class="p-5 bg-light">
+        <h3 class="text-center">Weekly Timetable</h3>
+        <table class="table ">
+            <thead>
+                <tr class="bg-dark text-white p-4">
+                    <th>Day</th>
+                    <th>Morning(8-10am)</th>
+                    <th>Afternoon(12-2pm)</th>
+                    <th>Evening(5-7pm)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>Yoga</td>
+                    <td>HIIT</td>
+                    <td>CrossFit</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Zumba</td>
+                    <td>Cardio</td>
+                    <td>Strength</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Pilates</td>
+                    <td>Core</td>
+                    <td>Kickboxing</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>HIIT</td>
+                    <td>Zumba</td>
+                    <td>Bootcamp</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Yoga</td>
+                    <td>Spin</td>
+                    <td>Strength</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+   
+    <!-- MEET OUR TRAINERS -->
+<section class="py-5 bg-light">
+    <div class="container text-center">
+        <h3 class="mb-5">Meet Our Trainers</h3>
+        <div class="row justify-content-center">
+            <!-- Trainer 1 -->
+            <div class="col-md-4 mb-4">
+                <img src="images/img1.jpg" alt="Trainer 1" class="rounded-circle img-fluid mb-3" style="width: 200px; height: 200px; object-fit: cover;">
+                <h5>Priya Sharma</h5>
+                <p>Yoga Instructor</p>
+            </div>
+            <!-- Trainer 2 -->
+            <div class="col-md-4 mb-4">
+                <img src="images/img2.jpg" alt="Trainer 2" class="rounded-circle img-fluid mb-3" style="width: 200px; height: 200px; object-fit: cover;">
+
+                <h5>Rahul Mehra</h5>
+                <p>Zumba Trainer</p>
+            </div>
+            <!-- Trainer 3 -->
+            <div class="col-md-4 mb-4">
+                <img src="images/img3.jpg" alt="Trainer 3" class="rounded-circle img-fluid mb-3" style="width: 200px; height: 200px; object-fit: cover;">
+
+                <h5>Anita Patel</h5>
+                <p>Strength Coach</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- What Our Members Say Section -->
+<section class="py-5 bg-light">
+    <div class="container text-center">
+        <h3 class="mb-5">What Our Members Say</h3>
+        <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Review 1 -->
+                <div class="carousel-item active">
+                    <div class="review-item" style="padding: 20px; background: #fff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 8px;">
+                        <p>"FitZone has transformed my life! The trainers are amazing!"</p>
+                        <h5>- Priya Sharma</h5>
+                    </div>
+                </div>
+                <!-- Review 2 -->
+                <div class="carousel-item">
+                    <div class="review-item" style="padding: 20px; background: #fff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 8px;">
+                        <p>"I love the group classes! Zumba is my favorite workout!"</p>
+                        <h5>- Rahul Mehra</h5>
+                    </div>
+                </div>
+                <!-- Review 3 -->
+                <div class="carousel-item">
+                    <div class="review-item" style="padding: 20px; background: #fff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 8px;">
+                        <p>"The personalized coaching really helped me achieve my goals!"</p>
+                        <h5>- Anita Patel</h5>
+                    </div>
+                </div>
+                <!-- Add more reviews here as needed -->
+            </div>
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Centered Content Section -->
+<section class="center-content">
+    <div class="container p-4 text-center">
+        <h1 class="display-3 mb-3" style="font-weight: bold; font-size: 50px;">Ready to transform your Life?</h1>
+        <p class="lead mb-4">Join FitZone today and unlock your full potential.</p>
+        <a href="" class="btn btn-success btn-lg">Join Now</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer bg-dark text-center text-white p-4">
+    <p>&copy; 2025 FitZone. All Rights Reserved.</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
